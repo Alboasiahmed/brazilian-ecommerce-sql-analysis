@@ -1,18 +1,62 @@
-# Data Files
+# Brazilian E-Commerce SQL Analysis Project
 
-Download the Brazilian E-Commerce Public Dataset by Olist from Kaggle and place the CSV files in `data/raw/`.
+This is a MySQL portfolio project where I analysed the Brazilian E-Commerce Public Dataset by Olist from Kaggle.
 
-Expected files:
+The goal of this project was to practise a realistic data analyst workflow: loading raw CSV files into a database, cleaning the data, designing analytics tables, and using SQL to answer business questions.
 
-- `olist_customers_dataset.csv`
-- `olist_geolocation_dataset.csv`
-- `olist_order_items_dataset.csv`
-- `olist_order_payments_dataset.csv`
-- `olist_order_reviews_dataset.csv`
-- `olist_orders_dataset.csv`
-- `olist_products_dataset.csv`
-- `olist_sellers_dataset.csv`
-- `product_category_name_translation.csv`
+I wanted this project to go beyond basic SQL queries and show the full process of turning raw business data into useful insights.
 
-The raw CSV files are intentionally ignored by Git because the geolocation file is large.
+---
 
+## Project Goal
+
+The main goal of this project was to analyse marketplace performance for Olist, including:
+
+- sales performance
+- delivery performance
+- customer satisfaction
+- seller performance
+- product category performance
+- payment behaviour
+- monthly revenue trends
+
+---
+
+## Dataset
+
+This project uses the **Brazilian E-Commerce Public Dataset by Olist** from Kaggle.
+
+The dataset contains multiple CSV files covering:
+
+- customers
+- orders
+- order items
+- sellers
+- products
+- payments
+- reviews
+- geolocation data
+- product category translations
+
+Because the data is split across multiple files, this project was a good opportunity to practise joins, relationships, and database design.
+
+---
+
+## How The Project Works
+
+The project follows this workflow:
+
+```text
+Raw CSV files
+    ↓
+Raw staging tables
+    ↓
+Clean analytics tables
+    ↓
+Exploratory analysis
+    ↓
+Business questions
+    ↓
+Advanced SQL analysis
+    ↓
+Business insights
