@@ -1,47 +1,18 @@
-# Brazilian E-Commerce SQL Analysis Project
+# Data Files
 
-This is a Microsoft SQL Server portfolio project using the Brazilian E-Commerce Public Dataset by Olist from Kaggle.
+Download the Brazilian E-Commerce Public Dataset by Olist from Kaggle and place the CSV files in `data/raw/`.
 
-The goal of this project was to practise a realistic data analyst workflow. I loaded raw CSV files into SQL Server, cleaned the data, created analysis-ready tables, and used SQL to answer business questions about sales, delivery, reviews, sellers, products, payments, and monthly revenue trends.
+Expected files:
 
-I wanted this project to show more than just basic SQL queries. It follows the process of taking raw data and turning it into useful business insights.
+- `olist_customers_dataset.csv`
+- `olist_geolocation_dataset.csv`
+- `olist_order_items_dataset.csv`
+- `olist_order_payments_dataset.csv`
+- `olist_order_reviews_dataset.csv`
+- `olist_orders_dataset.csv`
+- `olist_products_dataset.csv`
+- `olist_sellers_dataset.csv`
+- `product_category_name_translation.csv`
 
----
+The raw CSV files are intentionally ignored by Git because the geolocation file is large.
 
-## Project Goal
-
-The main goal of this project is to analyse marketplace performance for Olist.
-
-The analysis focuses on:
-
-- sales performance
-- delivery performance
-- customer satisfaction
-- seller performance
-- product category performance
-- payment behaviour
-- monthly revenue trends
-
----
-
-## Dataset
-
-This project uses the **Brazilian E-Commerce Public Dataset by Olist** from Kaggle.
-
-The dataset includes multiple CSV files, such as:
-
-- customers
-- orders
-- order items
-- sellers
-- products
-- payments
-- reviews
-- geolocation data
-- product category translations
-
-The raw CSV files are not included in this GitHub repository because they are large.  
-To run the project, download the dataset from Kaggle and place the CSV files in:
-
-```text
-data/raw/
